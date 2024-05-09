@@ -20,7 +20,7 @@ const _router = useRouter();
   <style scoped lang="scss">
 @import "@/assets/main.scss";
 .banner {
-  background-image: url("/assets/images/blog-banner.svg");
+  background-image: url("/assets/images/blog-banner.png");
   background-repeat: no-repeat;
   background-size: contain;
   width: 100%;

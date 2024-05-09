@@ -31,7 +31,7 @@
         </router-link>
       </div>
 
-      <div class="grid lg:grid-cols-2 gap-6 md:gap-4 mt-3">
+      <div class="grid lg:grid-cols-2 gap-6 md:gap-4 mt-3 mb-5">
         <ProductCard :product="products[0]" />
         <div class="grid grid-cols-2 gap-4">
           <ProductCard :product="products[1]" :isMini="true" />
@@ -54,12 +54,12 @@ import { onMounted, ref } from "vue";
 import { useRouter } from "vue-router";
 import ProductCard from "@/components/Universal/ProductCard.vue";
 const products = ref([
-  { name: "MOJ Spa center", imageurl: "product-one.svg" },
-  { name: "MOJ Spa center", imageurl: "product-two.svg" },
-  { name: "MOJ Spa center", imageurl: "product-three.svg" },
-  { name: "MOJ Spa center", imageurl: "product-four.svg" },
-  { name: "MOJ Spa center", imageurl: "product-five.svg" },
-  { name: "MOJ Spa center", imageurl: "product-six.svg" }
+  { name: "MOJ Spa center", imageurl: "product-one.png" },
+  { name: "MOJ Spa center", imageurl: "product-two.png" },
+  { name: "MOJ Spa center", imageurl: "product-three.png" },
+  { name: "MOJ Spa center", imageurl: "product-four.png" },
+  { name: "MOJ Spa center", imageurl: "product-five.png" },
+  { name: "MOJ Spa center", imageurl: "product-six.png" }
 ]);
 
 const _router = useRouter();

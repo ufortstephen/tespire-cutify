@@ -62,6 +62,11 @@ watch(route, async (oldRoute, newRoute) => {
 
 
 <style scoped lang="scss">
+
+button {
+  border: none !important;
+  outline: none !important;
+}
 #mobile-nav {
   &.isOpen {
     height: 100svh;

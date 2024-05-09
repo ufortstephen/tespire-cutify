@@ -73,7 +73,7 @@
         <vue-load-image>
           <template #image>
             <img
-              src="/assets/icons/hero-utils-2.svg"
+              src="/assets/icons/hero-utils-2.png"
               class="w-[70%] md:w-[80%] ml-auto"
             />
           </template>

@@ -1,5 +1,5 @@
 <template>
-  <div class="rounded-t-lg h-[320px] max-h-[350px] mb-5">
+  <div class="rounded-t-lg h-max md:h-[320px] max-h-[350px] mb-5">
     <vue-load-image>
       <template #image>
         <img
@@ -9,7 +9,7 @@
       </template>
     </vue-load-image>
     <div
-      class="border border-[#D3D3D4] rounded-b-lg flex flex-col gap-4 h-[150px]"
+      class="border border-[#D3D3D4] rounded-b-lg flex flex-col gap-4 h-max md:h-[150px]"
       :class="isMini ? 'p-3' : 'p-5'"
     >
       <p class="text-base font-normal">{{ product.name }}</p>
