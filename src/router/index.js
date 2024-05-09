@@ -17,7 +17,7 @@ const router = createRouter({
       component: OnBoarding,
       meta: {
         layout: "default",
-        title: "Gemnote Shopify  - Onboarding",
+        title: "Tespire Cutify  - Onboarding",
         requiresAuth: false
       },
 
@@ -28,7 +28,7 @@ const router = createRouter({
       component: ContactUs,
       meta: {
         layout: "default",
-        title: "Gemnote Shopify  - Contact Us",
+        title: "Tespire Cutify  - Contact Us",
         requiresAuth: false
       },
 
@@ -39,7 +39,7 @@ const router = createRouter({
       component: Blog,
       meta: {
         layout: "default",
-        title: "Gemnote Shopify  - Blog",
+        title: "Tespire Cutify  - Blog",
         requiresAuth: false
       },
 
@@ -50,7 +50,7 @@ const router = createRouter({
       component: Login,
       meta: {
         layout: "auth",
-        title: "Gemnote Shopify  - Login",
+        title: "Tespire Cutify  - Login",
       },
 
     },
@@ -60,7 +60,7 @@ const router = createRouter({
       component: SignUp,
       meta: {
         layout: "auth",
-        title: "Gemnote Shopify  - SignUp",
+        title: "Tespire Cutify  - SignUp",
       },
 
     }

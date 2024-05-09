@@ -10,7 +10,9 @@
           appointments right in your neighborhood.
         </p>
       </div>
-      <div class="auth-wrapper-content bg-white lg:h-screen flex flex-col gap-2 items-center justify-center">
+      <div
+        class="auth-wrapper-content bg-white lg:h-screen flex flex-col gap-2 items-center justify-center"
+      >
         <slot />
       </div>
     </div>
@@ -28,9 +30,7 @@ export default {
     return {};
   },
   data() {
-    return {
-      gemnoteLogo: "/assets/gemnote-logo_pebble.png",
-    };
+    return {};
   },
 
   computed: {},

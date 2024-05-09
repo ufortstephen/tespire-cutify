@@ -123,7 +123,7 @@ const _router = useRouter();
     left: -40px;
     width: 103%;
     height: 25px;
-    background-image: url("../../../assets/icons/path.svg");
+    background-image: url("/assets/icons/path.svg");
     background-size: cover;
     background-repeat: no-repeat;
   }

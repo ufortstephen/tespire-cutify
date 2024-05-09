@@ -3,7 +3,7 @@
     <vue-load-image>
       <template #image>
         <img
-          :src="`/assets/images/products/${product.imageurl}`"
+          :src="`/assets/images/${product.imageurl}`"
           class="w-full h-[200px] object-cover rounded-t-lg"
         />
       </template>

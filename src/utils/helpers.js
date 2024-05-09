@@ -1,5 +1,4 @@
 const defaultNotFoundImage = "/images/gemnote-no-image_updated.png";
-// 'https://s3-us-west-1.amazonaws.com/gemnote.com/gemnote-no-image.png'
 
 const defaultNoTrendingImage = "/images/noun_image_trending.svg";
 const defaultImageUploadPlaceholder = "/assets/upload-placeholder.png";
