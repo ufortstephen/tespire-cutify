@@ -10,7 +10,7 @@ export default defineConfig({
   root: dirname(fileURLToPath(import.meta.url)),
   plugins: [vue(), VitePWA({ registerType: 'autoUpdate' })],
   define: {
-    "process.env.SHOPIFY_API_KEY": JSON.stringify(process.env.SHOPIFY_API_KEY),
+    "process.env.API_KEY": JSON.stringify(process.env.API_KEY),
   },
   resolve: {
     preserveSymlinks: true,
