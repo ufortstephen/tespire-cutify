@@ -51,7 +51,9 @@
 </template>
     
 <script>
-import moment from "moment";
+import dayjs from "dayjs";
+import relativeTime from "dayjs/plugin/relativeTime";
+dayjs.extend(relativeTime);
 export default {
   name: "Blog",
   props: {
@@ -70,7 +72,7 @@ export default {
       window.open(link, "_blank");
     },
     handleBlogTime: (time) => {
-        return moment(time).fromNow()
+        return dayjs(time).fromNow()
     }
   },
   created() {},
